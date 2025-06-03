@@ -1,7 +1,7 @@
 # Data-Science-AI
 
 Deze repository bevat een voorbeeld Flask-webapplicatie om chi-kwadraat gerelateerde analyses te genereren. Volg de stappen hieronder om de app lokaal te draaien.
-De startpagina bevat nu ook een keuzelijst om aan te geven of je een test of independence of een goodness-of-fit test wilt uitvoeren.
+Op de startpagina kies je het soort chi-kwadraattoets via gekleurde vakjes (test of independence of goodness-of-fit). Het aangeklikte vakje wordt gemarkeerd en bepaalt welke test in het Python-script verschijnt.
 
 ```markdown
 # Instructies om te draaien:

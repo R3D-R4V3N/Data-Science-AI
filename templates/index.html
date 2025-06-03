@@ -21,12 +21,14 @@
         <input type="text" name="var2" placeholder="bijv. 'age'"><br>
         <label>Tweede variabele type:</label>
         <input type="text" name="type2" placeholder="bijv. 'category'"><br><br>
-        <label>Type chi-kwadraattoets:</label>
-        <select name="test_type">
-            <option value="independence">Test of Independence (2 variabelen)</option>
-            <option value="goodness_of_fit">Goodness-of-Fit (1 variabele)</option>
-        </select>
-        <p class="note">Kies welk soort vraag je wilt beantwoorden.</p>
+        <fieldset>
+            <legend>Type chi-kwadraattoets:</legend>
+            <input type="radio" id="indep" name="test_type" value="independence" checked>
+            <label for="indep" class="test-option independence">Test of Independence (2 variabelen)</label>
+            <input type="radio" id="gof" name="test_type" value="goodness_of_fit">
+            <label for="gof" class="test-option goodness">Goodness-of-Fit (1 variabele)</label>
+        </fieldset>
+        <p class="note">Klik op het gekleurde vakje voor de gewenste toets.</p>
         <fieldset>
             <legend>Kies analyses/plots:</legend>
             <input type="checkbox" name="options" value="chi2">Chi-kwadraattest<br>
