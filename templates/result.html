@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Gegenereerd Script</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Voer dit script uit in je eigen Python omgeving</h1>
+    <pre><code>{{ script }}</code></pre>
+    <p class="note">Pas variabelen en verwachte waarden zo nodig aan in het script.</p>
+    <!-- Instructies om te draaien:
+    1. Maak een virtuele omgeving en activeer die: `python -m venv venv && source venv/bin/activate`
+    2. Installeer afhankelijkheden: `pip install -r requirements.txt`
+    3. Start de server: `python app.py`
+    4. Open in de browser: `http://127.0.0.1:5000/`
+    -->
+</body>
+</html>
