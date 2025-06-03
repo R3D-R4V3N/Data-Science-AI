@@ -1,0 +1,69 @@
+/* Simple styling for the chi-squared selector page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+#container {
+  max-width: 600px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
+  height: 60px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.checkbox-group {
+  margin: 15px 0;
+}
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+.checkbox-group input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e9f5ff;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  white-space: pre-wrap;
+}
