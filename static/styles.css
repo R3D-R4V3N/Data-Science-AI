@@ -10,3 +10,7 @@ pre {
     padding: 10px;
     overflow-x: auto;
 }
+.note {
+    font-size: 0.9em;
+    color: #555;
+}
